@@ -91,3 +91,10 @@ In SOA, a business process is created as orchestration and managed by the platfo
 An ***enterprise service bus(ESB)*** is a middleware tool used to distribute work among connected components of an application. ESBs are designed to provide a uniform means of moving work, offering applications the ability to connect to the bus and subscribe to messages based on simple structural and business policy rules.
 
 ***Orchestration*** is the automated configuration, coordination, and management of computer systems and software.
+
+### Service-based architecture
+
+![Alt Service-based interface](https://miro.medium.com/max/2211/1*Qv7-oIF9gF5SjAEdkcCfsw.png) 
+Service-based architectures have been in use in the software industry to improve the modularity of products. A software product can be broken down into communicating services. With this approach, the developers can mix and match services from different vendors into a single product.
+
+**For Example:-** The 5G Core Network has been designed around services that are invoked using a standard API. On the surface, the 5G architecture looks very different from the 4G EPC but on close inspection, you can see the evolution from the 4G architecture to the 5G architecture.
