@@ -23,6 +23,10 @@ In this architecture the application is developed using a 3-layer architecture w
 
 **JSF** - Java Server Faces (JSF) is a Java-based web application framework intended to simplify development integration of web-based user interfaces. JavaServer Faces is a standardized display technology, which was formalized in a specification through the Java Community Process.
 
+**The Spring Web MVC** framework provides Model-View-Controller (MVC) architecture and ready components that can be used to develop flexible and loosely coupled web applications.
+
+The **Java Database Connectivity (JDBC) API** provides universal data access from the Java programming language.
+
 Advantage is development simplicity and convenience. scalability, maintainability, and security are the main concerns. In addition, support for modern front-end technologies (such as smartphones apps) may be challenging as well.
 ![Alt Monolithic version 1](https://dzone.com/storage/temp/9633926-m-v1.png)
 
