@@ -1,6 +1,12 @@
 # :boom: Learning :-)
 This is made to learn &amp; explore new tech &amp; research.
 
+:point_right: Main Topics
+
+:thought_balloon: Sub Topics
+
+:arrow_right: Key Points / Components / Categories
+
 ## :point_right: Software Architecture
 The presented architectures are designed based on three factors: 
 #### > distributed or non-distributed
@@ -132,3 +138,18 @@ Once a CI/CD tool is selected, development teams must make sure that all environ
 Many teams implementing CI/CD pipelines on cloud environments also use containers such as ***Docker*** and ***Kubernetes***. Containers allow packaging and shipping applications in standard, portable ways. The containers can then be used to scale up or tear down environments that have variable workloads.
 
 CD tools also provide dashboard and reporting functions. If builds or deliveries fail, they alert developers with information on the failed builds. They integrate with version control and agile tools, so they can be used to look up what code changes and user stories made up a build.  
+
+## :point_right: Model-View-Controller (MVC) 
+It is an architectural pattern that separates an application into three main logical components: the model, the view, and the controller. Each of these components are built to handle specific development aspects of an application. MVC is one of the most frequently used industry-standard web development framework to create scalable and extensible projects.
+
+### MVC Components
+Following are the components of MVC −
+
+#### :thought_balloon: Model
+The Model component corresponds to all the data-related logic that the user works with. This can represent either the data that is being transferred between the View and Controller components or any other business logic-related data. ***For example*** a Customer object will retrieve the customer information from the database, manipulate it and update it data back to the database or use it to render data.
+
+#### :thought_balloon: View
+The View component is used for all the UI logic of the application. ***For example*** the Customer view will include all the UI components such as text boxes, dropdowns, etc. that the final user interacts with.
+
+#### :thought_balloon: Controller
+Controllers act as an interface between Model and View components to process all the business logic and incoming requests, manipulate data using the Model component and interact with the Views to render the final output. ***For example*** the Customer controller will handle all the interactions and inputs from the Customer View and update the database using the Customer Model. The same controller will be used to view the Customer data.
