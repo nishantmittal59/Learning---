@@ -19,6 +19,7 @@ In microservices, every service is designed, developed and operated by a dedicat
 In this architecture the application is developed using a 3-layer architecture which runs in a single process. In this approach, the front-end can be developed using Java EE( JSP or JSF), Spring MVC (FreeMarker, Thymeleaf, or JSP), and dynamic HTML rendering using server-side scripting languages such as PHP or Python.
 
 Advantage is development simplicity and convenience. scalability, maintainability, and security are the main concerns. In addition, support for modern front-end technologies (such as smartphones apps) may be challenging as well.
+![Alt Monolithic version 1](https://dzone.com/storage/temp/9633926-m-v1.png)
 
 :arrow_right: **Non-Distributed Monolithic With Client-Side Front-End**
 
@@ -31,11 +32,13 @@ Potential technologies to be used in the front-end, in this case, could be
 * Hybrid applications, such as Cordova, PhoneGap, or Xamarin.
 
 This approach enables technology separation between the front-end and backend, where a new front-end can be supported easily without any modifications to the backend.
+![Alt Monolithic version 2](https://dzone.com/storage/temp/9633928-m-v2.png)
 
 :arrow_right: **Distributed Monolithic With Client-Side Front-End**
 
 The application is divided into 4-tiers (separate processes), where each tier communicates with the tier next to it over the network.
 In this architecture, even though extra complexity is added to development, deployment, and operations, it enables more levels of modularity and reusability of every tier, where any tier can be easily replaced with another one. In addition, it is considered more secure than the one-tier architecture presented in the previous two approaches. Moreover, it allows more efficient scalability, especially if asynchronous communication is implemented (maybe by using event-driven reactive techniques or traditional messaging such as Java messaging service).
+![Alt Monolithic version 3](https://dzone.com/storage/temp/9633933-m-v3.png)
 
 :arrow_right: **Non-Cloud Native Microservices**
 
@@ -51,6 +54,7 @@ Potential technology for microservices implementation includes:
 * Python.
 
 Theoretically, any technology talks HTTP can be used to develop microservices.
+![Alt Microservices version 1](https://dzone.com/storage/temp/9633934-c-v1.png)
 
 :arrow_right: **Cloud-Native Microservices**
 
@@ -60,6 +64,7 @@ This design might be sufficient for small-medium scale cloud-based applications.
 In addition, other opensource projects may be useful to explore, such as Spring Boot Admin for real-time web-based application monitoring and JHipster project which provides a nice generator for cloud-based applications.
 
 ***JHipster*** is a fully Open Source, widely used application generator. Easily create high-quality Spring Boot + Angular/React projects!
+![Alt Microservices version 2](https://dzone.com/storage/temp/9633935-c-v2.png)
 
 ### Why Software Architecture ?
 The purpose of software development processes is to deliver primary functionality expected by the end users and external stakeholders ,this category of functionality is known as ***functional requirements***
