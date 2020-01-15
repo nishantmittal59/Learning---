@@ -7,7 +7,7 @@ The presented architectures are designed based on three factors:
 #### > front-end (server-side or client-side)
 #### > monolithic or microservices
 
-### Deployment Monolithics, Microservices, and DevOps
+### :thought_balloon: Deployment Monolithics, Microservices, and DevOps
 Cloud computing can’t do much if systems are still designed in deployment monolithic approach where software applications are deployed as a single unit. Even though the monolithic approach is easy to understand by developers and has been adopted for decades, it has become a bottleneck with the new technology trends.
 In the monolithic approach, software systems are developed most likely in the same technology stack, cluster-based replication as a scalability strategy.
 
@@ -75,14 +75,14 @@ In addition, other opensource projects may be useful to explore, such as Spring 
 ***JHipster*** is a fully Open Source, widely used application generator. Easily create high-quality Spring Boot + Angular/React projects!
 ![Alt Microservices version 2](https://dzone.com/storage/temp/9633935-c-v2.png)
 
-### Why Software Architecture ?
+### :thought_balloon: Why Software Architecture ?
 The purpose of software development processes is to deliver primary functionality expected by the end users and external stakeholders ,this category of functionality is known as ***functional requirements***
 
 Most of the time, functional requirements can be achieved without following best practices or having a good architecture. For example, implementing a full-featured wire-transfer functionality (including security, validation, integration, and auditing), can be implemented in a single file (maybe tens of hundreds of lines of code).
 
 However, in the last example, the application will not survive for a long time. Problems will start to be visible in many stages, starting with the internal testing, user acceptance testing, to the going-live. Main concerns will be reliability (achieving the required functionality as expected all the time) and maintainability (the ability to maintain and apply changes to this functionality). Also, other potential issues include scalability and security. This leads to a different type of requirements: non-functional requirement (i.e. quality attributes).
 
-### Service Oriented Architecture (SOA) vs Microservices
+### :thought_balloon: Service Oriented Architecture (SOA) vs Microservices
 SOA services communicate over heavyweight smart-pipes (ESB), microservices communicate over dump pipes with smart-end points.
 SOA aims to integrate enterprise large complex monolithic applications into enterprise-wide processes, while microservices aims to integrate small microservices into a single project.
 SOA is enterprise-wide based, microservices is project based.
