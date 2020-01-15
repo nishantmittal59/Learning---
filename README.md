@@ -92,7 +92,7 @@ An ***enterprise service bus(ESB)*** is a middleware tool used to distribute wor
 
 ***Orchestration*** is the automated configuration, coordination, and management of computer systems and software.
 
-### Service-based architecture
+### :thought_balloon: Service-based architecture
 
 ![Alt Service-based interface](https://miro.medium.com/max/2211/1*Qv7-oIF9gF5SjAEdkcCfsw.png) 
 Service-based architectures have been in use in the software industry to improve the modularity of products. A software product can be broken down into communicating services. With this approach, the developers can mix and match services from different vendors into a single product.
