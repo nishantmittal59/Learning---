@@ -15,6 +15,8 @@ Microservices architecture is based on developing software projects into modular
 
 In microservices, every service is designed, developed and operated by a dedicated team, which has almost a full decision on the design and technology of their service. This approach of team structure and management is called ***DevOps.***
 
+A ***full stack developer*** is a web developer or engineer who works with both the front and back ends of a website or application—meaning they can tackle projects that involve databases, building user-facing websites, or even work with clients during the planning phase of projects.
+
 :arrow_right: **Non-Distributed Monolithic With Server-Side Front-End**
 
 In this architecture the application is developed using a 3-layer architecture which runs in a single process. In this approach, the front-end can be developed using Java EE( JSP or JSF), Spring MVC (FreeMarker, Thymeleaf, or JSP), and dynamic HTML rendering using server-side scripting languages such as PHP or Python. 
