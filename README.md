@@ -1,11 +1,11 @@
 # Learning :-)
 This is made to learn &amp; explore new tech &amp; research.
 
-## Software Architecture
+## ->> Software Architecture
 The presented architectures are designed based on three factors: 
-#### distributed or non-distributed
-#### front-end (server-side or client-side)
-#### monolithic or microservices
+#### > distributed or non-distributed
+#### > front-end (server-side or client-side)
+#### > monolithic or microservices
 
 ### Deployment Monolithics, Microservices, and DevOps
 cloud computing can’t do much if systems are still designed in deployment monolithic approach where software applications are deployed as a single unit. Even though the monolithic approach is easy to understand by developers and has been adopted for decades, it has become a bottleneck with the new technology trends.
