@@ -1,4 +1,4 @@
-# Learning :-)
+# :boom: Learning :-)
 This is made to learn &amp; explore new tech &amp; research.
 
 ## :point_right: Software Architecture
@@ -102,12 +102,33 @@ Service-based architectures have been in use in the software industry to improve
 **For Example:-** The 5G Core Network has been designed around services that are invoked using a standard API. On the surface, the 5G architecture looks very different from the 4G EPC but on close inspection, you can see the evolution from the 4G architecture to the 5G architecture.
 
 ## :point_right: CI / CD { Continuous Integration & Continuous Delivery (Deployment) }
-The CI/CD pipeline is one of the best practices for devops teams to implement, for delivering code changes more frequently and reliably.
+The CI/CD pipeline is one of the best practices for devops teams to implement, for delivering code changes more frequently and reliably. CI/CD is a devops best practice because it addresses the misalignment between developers who want to push changes frequently, with operations that want stable applications.
 
 Continuous integration are set of practices that drive development teams to implement small changes and check in code to version control repositories frequently. Because most modern applications require developing code in different platforms and tools, the team needs a mechanism to integrate and validate its changes.The technical goal of CI is to establish a consistent and automated way to build, package, and test applications. With consistency in the integration process in place, teams are more likely to commit code changes more frequently, which leads to better collaboration and software quality.
 
 Continuous delivery picks up where continuous integration ends. CD automates the delivery of applications to selected infrastructure environments. Most teams work with multiple environments other than the production, such as development and testing environments, and CD ensures there is an automated way to push code changes to them.  CD automation then performs any necessary service calls to web servers, databases, and other services that may need to be restarted or follow other procedures when applications are deployed.
 
-:arrow_right: One technique is to use ***version-control*** branching. A branching strategy such as **Gitflow** is selected to define protocols over how new code is merged into standard branches for development, testing and production. Additional feature branches are created for ones that will take longer development cycles. When the feature is complete, the developers can then merge the changes from feature branches into the primary development branch. This approach works well, but it can become difficult to manage if there are many features being developed concurrently.
+:arrow_right: One technique is to use ***version-control*** branching. A branching strategy such as **Gitflow** :octocat: is selected to define protocols over how new code is merged into standard branches for development, testing and production. Additional feature branches are created for ones that will take longer development cycles. When the feature is complete, the developers can then merge the changes from feature branches into the primary development branch. This approach works well, but it can become difficult to manage if there are many features being developed concurrently.
 
 :arrow_right: There are other techniques for managing features. Some teams also use ***feature flags***, a configuration mechanism to turn on or off features and code at run time. Features that are still under development are wrapped with feature flags in the code, deployed with the master branch to production, and turned off until they are ready to be used.
+
+**For example** if you were developing a Java application, CI would package all the static web server files such as HTML, CSS, and JavaScript along with the Java application and any database scripts.
+CI not only packages all the software and database components, but the automation will also execute unit tests and other testing. This testing provides feedback to developers that their code changes didn’t break any existing unit tests.
+
+A CI/CD tool such as **Jenkins** or **Travis CI** is used to automate the steps and provide reporting.
+
+#### :arrow_right: A typical CD pipeline includes many of these steps:
+* Pulling code from version control and executing a build.
+* Executing any required infrastructure steps that are automated as code to stand up or tear down cloud infrastructure.
+* Moving code to the target compute environment.
+* Managing the environment variables and configuring them for the target environment.
+* Pushing application components to their appropriate services, such as web servers, API services, and database services.
+* Executing any steps required to restarts services or call service endpoints that are needed for new code pushes.
+* Executing continuous tests and rollback environments if tests fail.
+* Providing log data and alerts on the state of the delivery.
+
+Once a CI/CD tool is selected, development teams must make sure that all environment variables are configured outside the application. CI/CD tools allow setting these variables, masking variables such as passwords and account keys, and configuring them at time of deployment for the target environment.
+
+Many teams implementing CI/CD pipelines on cloud environments also use containers such as ***Docker*** and ***Kubernetes***. Containers allow packaging and shipping applications in standard, portable ways. The containers can then be used to scale up or tear down environments that have variable workloads.
+
+CD tools also provide dashboard and reporting functions. If builds or deliveries fail, they alert developers with information on the failed builds. They integrate with version control and agile tools, so they can be used to look up what code changes and user stories made up a build.  
