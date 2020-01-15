@@ -12,7 +12,7 @@ cloud computing can’t do much if systems are still designed in deployment mono
 In the monolithic approach, software systems are developed most likely in the same technology stack, cluster-based replication as a scalability strategy.
 Microservices architecture is based on developing software projects into modular services that are: small, self-contained, self-deployable, designed around business capabilities, manage its own data, and communicate with other services over a lightweight protocol (most likely HTTP).
 
-In microservices, every service is designed, developed and operated by a dedicated team, which has almost a full decision on the design and technology of their service. This approach of team structure and management is called ***DevOps***
+In microservices, every service is designed, developed and operated by a dedicated team, which has almost a full decision on the design and technology of their service. This approach of team structure and management is called ***DevOps.***
 
 ### Why Software Architecture ?
 The purpose of software development processes is to deliver primary functionality expected by the end users and external stakeholders ,this category of functionality is known as ***functional requirements***
