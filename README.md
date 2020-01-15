@@ -16,7 +16,9 @@ In microservices, every service is designed, developed and operated by a dedicat
 
 :arrow_right: **Non-Distributed Monolithic With Server-Side Front-End**
 
-In this architecture the application is developed using a 3-layer architecture which runs in a single process. In this approach, the front-end can be developed using Java EE( JSP or JSF), Spring MVC (FreeMarker, Thymeleaf, or JSP), and dynamic HTML rendering using server-side scripting languages such as PHP or Python.
+In this architecture the application is developed using a 3-layer architecture which runs in a single process. In this approach, the front-end can be developed using Java EE( JSP or JSF), Spring MVC (FreeMarker, Thymeleaf, or JSP), and dynamic HTML rendering using server-side scripting languages such as PHP or Python. 
+**JSP** - java server pages is a server-side programming technology that enables the creation of dynamic, platform-independent method for building Web-based applications. JSP have access to the entire family of Java APIs, including the JDBC API to access enterprise databases.
+**JSF** - Java Server Faces (JSF) is a Java-based web application framework intended to simplify development integration of web-based user interfaces. JavaServer Faces is a standardized display technology, which was formalized in a specification through the Java Community Process.
 
 Advantage is development simplicity and convenience. scalability, maintainability, and security are the main concerns. In addition, support for modern front-end technologies (such as smartphones apps) may be challenging as well.
 ![Alt Monolithic version 1](https://dzone.com/storage/temp/9633926-m-v1.png)
