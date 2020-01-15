@@ -154,6 +154,6 @@ The View component is used for all the UI logic of the application. ***For examp
 #### :thought_balloon: Controller
 Controllers act as an interface between Model and View components to process all the business logic and incoming requests, manipulate data using the Model component and interact with the Views to render the final output. ***For example*** the Customer controller will handle all the interactions and inputs from the Customer View and update the database using the Customer Model. The same controller will be used to view the Customer data.
 
-## :point_right: PMD 
+## :point_right: PMD (Programming Mistake Detector)
 PMD is a source code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It supports Apex, Java, JavaScript, XML, XSL.
 Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code in Java, C, C++, C#, PHP, Ruby, Fortran, JavaScript, Matlab, Swift.
