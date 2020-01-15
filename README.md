@@ -100,3 +100,14 @@ An ***enterprise service bus(ESB)*** is a middleware tool used to distribute wor
 Service-based architectures have been in use in the software industry to improve the modularity of products. A software product can be broken down into communicating services. With this approach, the developers can mix and match services from different vendors into a single product.
 
 **For Example:-** The 5G Core Network has been designed around services that are invoked using a standard API. On the surface, the 5G architecture looks very different from the 4G EPC but on close inspection, you can see the evolution from the 4G architecture to the 5G architecture.
+
+## :point_right: CI / CD { Continuous Integration & Continuous Delivery (Deployment) }
+The CI/CD pipeline is one of the best practices for devops teams to implement, for delivering code changes more frequently and reliably.
+
+Continuous integration are set of practices that drive development teams to implement small changes and check in code to version control repositories frequently. Because most modern applications require developing code in different platforms and tools, the team needs a mechanism to integrate and validate its changes.The technical goal of CI is to establish a consistent and automated way to build, package, and test applications. With consistency in the integration process in place, teams are more likely to commit code changes more frequently, which leads to better collaboration and software quality.
+
+Continuous delivery picks up where continuous integration ends. CD automates the delivery of applications to selected infrastructure environments. Most teams work with multiple environments other than the production, such as development and testing environments, and CD ensures there is an automated way to push code changes to them.  CD automation then performs any necessary service calls to web servers, databases, and other services that may need to be restarted or follow other procedures when applications are deployed.
+
+:arrow_right: One technique is to use ***version-control*** branching. A branching strategy such as Gitflow is selected to define protocols over how new code is merged into standard branches for development, testing and production. Additional feature branches are created for ones that will take longer development cycles. When the feature is complete, the developers can then merge the changes from feature branches into the primary development branch. This approach works well, but it can become difficult to manage if there are many features being developed concurrently.
+
+
