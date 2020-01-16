@@ -195,6 +195,7 @@ Server editions of Windows are widely used. In recent years, Microsoft has expen
 
 ## :point_right: Kernel
 ![Alt Kernel](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/330px-Kernel_Layout.svg.png)
+
 A Kernel is the central part of an operating system. It manages the operations of the computer and the hardware, most notably memory and CPU time.
 
 #### There are five types of kernels:
@@ -203,4 +204,20 @@ A Kernel is the central part of an operating system. It manages the operations o
 * Hybrid Kernel
 * Exo Kernel
 * Nano Kernel
-A computer user never interacts directly with the kernel. It runs behind the scenes and cannot be seen, except for the text logs that it prints.
+
+A computer user never interacts directly with the kernel. It runs behind the scenes and cannot be seen, except for the text logs that it prints.The kernel provides services so programs can request the use of the network card, the disk or other pieces of hardware. The kernel forwards the request to special programs called device drivers which control the hardware. It also manages the file system and sets interrupts for the CPU to enable multitasking. 
+
+The Kernel can also talk to hardware on a secure line. So companies can develop a Kernel which can talk to their hardware through a set of buttons. Take the washing machine **for an example**, Depending on the knobs you move, and time you set – a basic level of Kernel should be enough.  That said, Kernel themselves grow complicated with time, which results in types of Kernel.
+
+#### :arrow_right: Monolithic Kernel:
+Here, the OS and Kernel both run in the same memory space and suitable where security is not a significant concern. It results in faster access, but if there is a bug in the device driver, the entire system crashes.
+#### :arrow_right: Microkernel: 
+Its a stripped-down version of Monolithic Kernel where the Kernel itself can do most of the job done, and there is no need of an extra GUI. They should be used where security and the crashing system isn’t or will not happen.
+#### :arrow_right: Hybrid Kernel: 
+This Kernel is what we see most. Windows, Apple’s macOS. They are a mix of Monolithic Kernel and Microkernel. It moves out drivers but keeps system services inside the Kernel – similar to how drivers are loaded when Windows Starts the bootup process.
+#### :arrow_right: Nano Kernel: 
+If you need to have a kernel, but its majority of function is set up outside, then this comes into the picture.
+#### :arrow_right: Exo Kernel: 
+This kernel only offers process protection and resource handling. However it is mostly used when you are testing out an inhouse project, and you upgrade to a better Kernel type.
+
+There is a lot more to a Kernel than what we have talked about. As you dig deeper, the definition of Kernel gets broader and more profound.
