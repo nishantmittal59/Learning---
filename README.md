@@ -179,3 +179,9 @@ macOS (formerly "Mac OS X" and later "OS X") is a line of open core graphical op
 macOS is a UNIX operating system built on technology that had been developed at NeXT.
 
 **NeXT**- formed by Steve jobs, a company that manufactured high-end computers running on a variation of BSD called **NeXTSTEP**. One of these computers was used by Tim Berners-Lee as the first webserver to create the World Wide Web.
+
+### :thought_balloon: Linux
+The Linux kernel originated in 1991, as a project of Linus Torvalds (university student in Finland). He posted information about his project on a newsgroup for computer students and programmers, and received support and assistance from volunteers who succeeded in creating a complete and functional kernel.
+
+Linux is Unix-like, but was developed without any Unix code, unlike BSD and its variants. Because of its open license model, the Linux kernel code is available for study and modification, which resulted in its use on a wide range of computing machinery from supercomputers to smart-watches. Linux is used on only 1.82% of all "desktop" (or laptop) PCs, it has been widely adopted for use in servers and embedded systems such as cell phones. Linux has superseded Unix on many platforms and is used on most supercomputers. Linux kernel is used in some **popular distributions**,such as Red Hat, Debian, Ubuntu, Linux Mint, Google's Android, Chrome OS &Chromium OS.
+
