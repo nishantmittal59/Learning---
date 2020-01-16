@@ -159,6 +159,9 @@ PMD is a source code analyzer. It finds common programming flaws like unused var
 Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code in Java, C, C++, C#, PHP, Ruby, Fortran, JavaScript, Matlab, Swift.
 
 ## :point_right: OS (Operating Systems)
+There have been many operating systems that were significant in their day but are no longer so, such as **AmigaOS**, **OS/2** from IBM and Microsoft; classic Mac OS, the non-Unix precursor to Apple's **macOS; BeOS; XTS-300; RISC OS; MorphOS; Haiku; BareMetal and FreeMint**. Some are still used in niche markets and continue to be developed as minority platforms for enthusiast communities and specialist applications. **OpenVMS**, formerly from DEC, is still under active development by Hewlett-Packard.
+
+**Example**- MINIX (used for academics & research) & Singularity (purely for research).
 
 ### :thought_balloon: Unix
 Unix was originally written in assembly language by Ken Thompson.
@@ -185,3 +188,7 @@ The Linux kernel originated in 1991, as a project of Linus Torvalds (university 
 
 Linux is Unix-like, but was developed without any Unix code, unlike BSD and its variants. Because of its open license model, the Linux kernel code is available for study and modification, which resulted in its use on a wide range of computing machinery from supercomputers to smart-watches. Linux is used on only 1.82% of all "desktop" (or laptop) PCs, it has been widely adopted for use in servers and embedded systems such as cell phones. Linux has superseded Unix on many platforms and is used on most supercomputers. Linux kernel is used in some **popular distributions**,such as Red Hat, Debian, Ubuntu, Linux Mint, Google's Android, Chrome OS &Chromium OS.
 
+### :thought_balloon: Microsoft Windows
+Server editions of Windows are widely used. In recent years, Microsoft has expended significant capital in an effort to promote the use of Windows as a server operating system. However, Windows' usage on servers is not as widespread as on personal computers as Windows competes against Linux and BSD for server market share.
+
+**ReactOS** is a Windows-alternative operating system, which is being developed on the principles of Windows – without using any of Microsoft's code.
