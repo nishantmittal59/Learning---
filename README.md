@@ -157,3 +157,25 @@ Controllers act as an interface between Model and View components to process all
 ## :point_right: PMD (Programming Mistake Detector)
 PMD is a source code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It supports Apex, Java, JavaScript, XML, XSL.
 Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code in Java, C, C++, C#, PHP, Ruby, Fortran, JavaScript, Matlab, Swift.
+
+## :point_right: OS (Operating Systems)
+
+### :thought_balloon: Unix
+Unix was originally written in assembly language by Ken Thompson.
+The Unix-like family is a diverse group of operating systems, with several major sub-categories including System V, BSD, and Linux. The name "UNIX" is a trademark of The Open Group which licenses it for use with any operating system that has been shown to conform to their definitions. "UNIX-like" is commonly used to refer to the large set of operating systems which resemble the original UNIX.
+
+Unix-like systems run on a wide variety of computer architectures. They are used heavily for servers in business, as well as workstations in academic and engineering environments. ***Free UNIX variants***, such as Linux and BSD, are popular in these areas.
+
+Four operating systems are certified by The Open Group (holder of the Unix trademark) as Unix. HP's HP-UX and IBM's AIX are both descendants of the original System V Unix and are designed to run only on their respective vendor's hardware. In contrast, Sun Microsystems's Solaris can run on multiple types of hardware, including x86 and Sparc servers, and PCs. Apple's macOS, a replacement for Apple's earlier (non-Unix) Mac OS, is a hybrid kernel-based BSD variant derived from NeXTSTEP, Mach, and FreeBSD.
+
+Unix interoperability was sought by establishing the POSIX standard. The POSIX standard can be applied to any operating system, although it was originally created for various Unix variants.
+
+**POSIX**- Portable Operating Systems Interface
+
+**BSD**- Berkeley Software Distribution (which includes FreeBSD, NetBSD, and OpenBSD. These operating systems are most commonly found on webservers, although they can also function as a personal computer OS.)
+
+### :thought_balloon: macOS
+macOS (formerly "Mac OS X" and later "OS X") is a line of open core graphical operating systems developed, marketed, and sold by Apple Inc., the latest of which is pre-loaded on all currently shipping Macintosh computers.
+macOS is a UNIX operating system built on technology that had been developed at NeXT.
+
+**NeXT**- formed by Steve jobs, a company that manufactured high-end computers running on a variation of BSD called **NeXTSTEP**. One of these computers was used by Tim Berners-Lee as the first webserver to create the World Wide Web.
