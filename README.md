@@ -211,6 +211,7 @@ The Kernel can also talk to hardware on a secure line. So companies can develop 
 
 #### :arrow_right: Monolithic Kernel:
 Here, the OS and Kernel both run in the same memory space and suitable where security is not a significant concern. It results in faster access, but if there is a bug in the device driver, the entire system crashes.
+![Alt](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Kernel-simple.svg/255px-Kernel-simple.svg.png)
 #### :arrow_right: Microkernel: 
 Its a stripped-down version of Monolithic Kernel where the Kernel itself can do most of the job done, and there is no need of an extra GUI. They should be used where security and the crashing system isn’t or will not happen.
 #### :arrow_right: Hybrid Kernel: 
