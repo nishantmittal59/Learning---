@@ -217,6 +217,7 @@ Its a stripped-down version of Monolithic Kernel where the Kernel itself can do 
 ![Alt](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kernel-microkernel.svg/390px-Kernel-microkernel.svg.png)
 #### :arrow_right: Hybrid Kernel: 
 This Kernel is what we see most. Windows, Apple’s macOS. They are a mix of Monolithic Kernel and Microkernel. It moves out drivers but keeps system services inside the Kernel – similar to how drivers are loaded when Windows Starts the bootup process.
+
 ![Alt](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kernel-hybrid.svg/390px-Kernel-hybrid.svg.png)
 #### :arrow_right: Nano Kernel: 
 If you need to have a kernel, but its majority of function is set up outside, then this comes into the picture.
