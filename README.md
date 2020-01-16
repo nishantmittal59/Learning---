@@ -214,8 +214,10 @@ Here, the OS and Kernel both run in the same memory space and suitable where sec
 ![Alt](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Kernel-simple.svg/255px-Kernel-simple.svg.png)
 #### :arrow_right: Microkernel: 
 Its a stripped-down version of Monolithic Kernel where the Kernel itself can do most of the job done, and there is no need of an extra GUI. They should be used where security and the crashing system isn’t or will not happen.
+![Alt](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kernel-microkernel.svg/390px-Kernel-microkernel.svg.png)
 #### :arrow_right: Hybrid Kernel: 
 This Kernel is what we see most. Windows, Apple’s macOS. They are a mix of Monolithic Kernel and Microkernel. It moves out drivers but keeps system services inside the Kernel – similar to how drivers are loaded when Windows Starts the bootup process.
+![Alt](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kernel-hybrid.svg/390px-Kernel-hybrid.svg.png)
 #### :arrow_right: Nano Kernel: 
 If you need to have a kernel, but its majority of function is set up outside, then this comes into the picture.
 #### :arrow_right: Exo Kernel: 
