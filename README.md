@@ -219,5 +219,3 @@ This Kernel is what we see most. Windows, Apple’s macOS. They are a mix of Mon
 If you need to have a kernel, but its majority of function is set up outside, then this comes into the picture.
 #### :arrow_right: Exo Kernel: 
 This kernel only offers process protection and resource handling. However it is mostly used when you are testing out an inhouse project, and you upgrade to a better Kernel type.
-
-There is a lot more to a Kernel than what we have talked about. As you dig deeper, the definition of Kernel gets broader and more profound.
